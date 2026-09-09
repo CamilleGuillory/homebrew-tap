@@ -7,7 +7,7 @@ cask "audio-priority-bar" do
   desc "Automatically switch to the highest-priority connected audio device"
   homepage "https://github.com/CamilleGuillory/AudioPriorityBar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AudioPriorityBar.app"
 
