@@ -5,8 +5,8 @@ Homebrew packages maintained by Camille Guillory.
 ## Audio Priority Bar
 
 ```bash
-brew trust CamilleGuillory/tap
-brew install --cask CamilleGuillory/tap/audio-priority-bar
+brew trust camguillory/tap
+brew install --cask camguillory/tap/audio-priority-bar
 ```
 
 Homebrew 6 requires the explicit trust step because Audio Priority Bar is not
