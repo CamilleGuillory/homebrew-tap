@@ -1,11 +1,11 @@
 cask "audio-priority-bar" do
-  version "2.0.4"
-  sha256 "ba691200dc28e8468503f90913bb28353a3e13b05ebf121ff592f895dda0dfb1"
+  version "2.0.0"
+  sha256 "ce491ffdb0674cb5dc13eb2441b2750f5be62be8f03175bcd7ce0ee94e363329"
 
-  url "https://github.com/CamilleGuillory/AudioPriorityBar/releases/download/v#{version}/AudioPriorityBar.zip"
+  url "https://github.com/CamilleGuillory/Audio-Priority-Bar/releases/download/v#{version}/AudioPriorityBar.zip"
   name "Audio Priority Bar"
   desc "Automatically switch to the highest-priority connected audio device"
-  homepage "https://github.com/CamilleGuillory/AudioPriorityBar"
+  homepage "https://github.com/CamilleGuillory/Audio-Priority-Bar"
 
   depends_on macos: :ventura
 
